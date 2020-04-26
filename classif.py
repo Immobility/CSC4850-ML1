@@ -22,4 +22,4 @@ results = knn.predict(X_test)
 
 #Exports results as a csv file
 results = pd.DataFrame(results)
-results.to_csv('~/CSC4850-ML1/results/KimTrainData5.csv', index = False, header = None)
+results.to_csv('~/CSC4850-ML1/results/KimTrainLabel5.csv', index = False, header = None)
